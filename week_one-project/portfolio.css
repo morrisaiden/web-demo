@@ -1,0 +1,59 @@
+.info{
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+.info h1{
+  font-family: "roboto Light";
+  color: darkviolet;
+  margin-bottom: 15px;
+}
+
+span{
+  color: orange;
+}
+
+.info p{
+  color: #555555;
+  line-height: 25px;
+}
+.info a{
+  text-decoration: none;
+  padding: 10px 19px;
+  background-color: #333a87;
+  margin: 30px 0;
+  display: inline-block;
+  border-radius: 10px;
+  color: azure;
+}
+.images{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: o;
+  right: 150px;
+}
+.images img{
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+.images:hover .object{
+  bottom:40px;
+}
+.images:hover .myself{
+  left:45%;
+}
+nav ul{
+  float: right;
+  display: flex;
+  padding: 20px;
+  margin:40px 30px;
+}
+nav ul li{
+  padding: 20px;
+  display:flex;
+}
